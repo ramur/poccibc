@@ -25,5 +25,3 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 ADD ps-microservice.jar /home/ramur
 
 CMD ["java", "-classpath", "/home/ramur", "-jar", "ps-microservice.jar"]
-
-#CMD ["java", "-jar", "microservice.jar"] 
